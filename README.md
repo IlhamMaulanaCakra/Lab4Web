@@ -44,7 +44,7 @@ dan kenapa urlnya :http://localhost/lab4_php_modular/tambah.php tidak pakai .php
 1. file .htaccess<p>
 File .htaccess adalah file konfigurasi yang terletak di direktori situs web dan digunakan untuk mengontrol konfigurasi server Apache yang berhubungan dengan direktori yang sama jadi karna ada file .htaccess lah kita memanggil direktori yang ada di dalam satu file ga usah pakai .php contoh tambah.php jadi kita bisa memanggil hannya dengn tambah saja dan di bawah ini coding .htaccessny<p>
 
-
+```php
 <IfModule mod_rewrite.c>
  RewriteEngine On
  RewriteBase /lab4_php_modular/
@@ -52,4 +52,3 @@ File .htaccess adalah file konfigurasi yang terletak di direktori situs web dan 
  RewriteCond %{REQUEST_FILENAME} !-d
  RewriteRule ^(.*)$ index.php?mod=$1 [L]
 </IfModule>
-</table>
