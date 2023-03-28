@@ -42,7 +42,7 @@ untuk memanggil halaman di atas kalian harus memasukan url:http://localhost/lab4
 dan kenapa urlnya :http://localhost/lab4_php_modular/tambah.php tidak pakai .php seperti gambar yang di atas mari aku jelaskan satu satu fungsi koding yang ada di dalam file lab4_php_modular<p>
 
 1. file .htaccess<p>
-File .htaccess adalah file konfigurasi yang terletak di direktori situs web dan digunakan untuk mengontrol konfigurasi server Apache yang berhubungan dengan direktori yang sama jadi karna ada file .htaccess lah kita memanggil direktori yang ada di dalam satu file ga usah pakai .php contoh tambah.php jadi kita bisa memanggil hannya dengn tambah saja dan di bawah ini coding .htaccessny<p>
+File .htaccess adalah file konfigurasi yang terletak di direktori situs web dan digunakan untuk mengontrol konfigurasi server Apache yang berhubungan dengan direktori yang sama jadi karna ada file .htaccess lah kita memanggil direktori yang ada di dalam satu file ga usah pakai .php contoh tambah.php jadi kita bisa memanggil hannya dengan tambah saja dan di bawah ini coding .htaccessny<p>
 
 ```php
 <IfModule mod_rewrite.c>
@@ -52,3 +52,33 @@ File .htaccess adalah file konfigurasi yang terletak di direktori situs web dan 
  RewriteCond %{REQUEST_FILENAME} !-d
  RewriteRule ^(.*)$ index.php?mod=$1 [L]
 </IfModule>
+```
+
+2. file about.php <p>
+adalah suatu file untuk kita bebuat comentar bagi sang pembuat website dibawah ini coding about.php<p>
+```php
+<?php require('header.php'); ?>
+<div class="container">
+    <h2>About</h2>
+    <div class="box">
+        <p>Saya M. AKMAL AL ABDILAH mengucapkan terimakasih.</p>
+    </div>
+</div>
+<?php require('footer.php'); ?>
+```
+
+3. file footer.php<p>
+```php
+<head><link href="style.css" rel="stylesheet" type="text/css"></head>
+<footer>
+    <center><p>&copy; 2021, Informatika, Universitas Pelita Bangsa</p></center>
+</footer>
+</div>
+</body>
+
+</html>
+```
+
+dan intinya dalam pertemuan kali ini saya membuat program modulasi dan berikut penjelasan singkatnnya, Modulasi di dalam bahasa pemrograman PHP merujuk pada teknik untuk membagi kode menjadi modul atau bagian-bagian yang lebih kecil dan independen yang dapat dipanggil dan digunakan secara terpisah. Modulasi di PHP biasanya dilakukan dengan menggunakan konsep fungsi, kelas, atau namespace. Dengan memodulasi kode, kita dapat membuat kode lebih mudah dipahami, dipelihara, dan diubah di masa depan, serta memungkinkan beberapa pengembang untuk bekerja secara bersamaan pada proyek yang sama dengan mudah. Saya mohon maaf tidak menjelaskan satu persatu file yang ada di dalam folder lab4_php_modulasi di atas tapi kalian bisa membaca penjelasan file yang lain di link ini https://github.com/akmalabdilah/Lab3Web.git <p>
+
+Sekian pratikum 4 kali ini dari saya terimakasi telah membaca hingga titik ini<p>
