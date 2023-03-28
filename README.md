@@ -1,26 +1,13 @@
 # Lab4Web
 
 <h3>Biodata Mahasiswa</h3>           
-    <table>
-        <p><tr>
-               <td>Kelas</td>
-               <td>:</td>
-               <td>TI.21.A.1</td>
-               <td>&nbsp;</td>
-       </tr></p>
-       <p><tr>
-               <td>Nama</td>
-               <td>:</td>
-               <td>M. AKMAL AL ABDILAH</td>
-               <td>&nbsp;</td>
-       </tr></p>
-       <p><tr>
-               <td>Nim</td>
-               <td>:</td>
-               <td>312110034</td>
-               <td>&nbsp;</td>
-       </tr></p>
-       </table>
+| #               | Biodata             |
+| --------------- | -----------------   |
+| **Nama**        | M. AKMAL AL ABDILAH |
+| **NIM**         | 312110034           |
+| **Kelas**       | TI.21.A.1           |
+| **Mata Kuliah** | Pemrograman Web 2   |
+
 
 Assalam'mulaikum wr wb. <p> 
 
@@ -43,7 +30,7 @@ dan kenapa urlnya :http://localhost/lab4_php_modular/tambah.php tidak pakai .php
 1. file .htaccess<p>
 File .htaccess adalah file konfigurasi yang terletak di direktori situs web dan digunakan untuk mengontrol konfigurasi server Apache yang berhubungan dengan direktori yang sama jadi karna ada file .htaccess lah kita memanggil direktori yang ada di dalam satu file ga usah pakai .php contoh tambah.php jadi kita bisa memanggil hannya dengn tambah saja dan di bawah ini coding .htaccessny<p>
 
-<table>
+
 <IfModule mod_rewrite.c>
  RewriteEngine On
  RewriteBase /lab4_php_modular/
