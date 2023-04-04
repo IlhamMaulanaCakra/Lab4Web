@@ -11,13 +11,13 @@
        <p><tr>
                <td>Nama</td>
                <td>:</td>
-               <td>M. AKMAL AL ABDILAH</td>
+               <td>Ilham Maulana Cakra Dwi Noto</td>
                <td>&nbsp;</td>
        </tr></p>
        <p><tr>
                <td>Nim</td>
                <td>:</td>
-               <td>312110034</td>
+               <td>312110027</td>
                <td>&nbsp;</td>
        </tr></p>
        </table>
@@ -25,7 +25,7 @@
 
 Assalam'mulaikum wr wb. <p> 
 
-Di tugas pratikum kali ini saya akan membagikan sedikit shering mengenai program php d  dasar modulasi, tanpa berlama lama lagi saya kan mesering foto hasil outputnya<p>
+Ini adalah tugas praktikum Modulasi dan berikut outputnya<p>
 
 # Tugas_Pratikum_4
 
@@ -39,10 +39,10 @@ untuk memanggil halaman di atas kalian harus memasukan url:http://localhost/lab4
 ![Gambar 4](screenshoot/4.JPG)
 untuk memanggil halaman di atas kalian harus memasukan url:http://localhost/lab4_php_modular/tambah<p>
 
-dan kenapa urlnya :http://localhost/lab4_php_modular/tambah.php tidak pakai .php seperti gambar yang di atas mari aku jelaskan satu satu fungsi koding yang ada di dalam file lab4_php_modular<p>
+Berikut penjelasan kenapa urlnya berbentuk :http://localhost/lab4_php_modular/tambah.php tidak pakai .php seperti gambar yang di atas mari aku jelaskan satu satu fungsi koding yang ada di dalam file lab4_php_modular<p>
 
 1. file .htaccess<p>
-File .htaccess adalah file konfigurasi yang terletak di direktori situs web dan digunakan untuk mengontrol konfigurasi server Apache yang berhubungan dengan direktori yang sama jadi karna ada file .htaccess lah kita memanggil direktori yang ada di dalam satu file ga usah pakai .php contoh tambah.php jadi kita bisa memanggil hannya dengan tambah saja dan di bawah ini coding .htaccessny<p>
+File .htaccess adalah file konfigurasi yang terletak di direktori situs web dan digunakan untuk mengontrol konfigurasi server Apache yang berhubungan dengan direktori yang sama jadi karna ada file .htaccess lah kita memanggil direktori yang ada di dalam satu file tidak usah pakai .php contoh tambah.php jadi kita bisa memanggil hannya dengan tambah saja. Berikut codingan .htaccess<p>
 
 ```php
 <IfModule mod_rewrite.c>
@@ -61,7 +61,7 @@ adalah suatu file untuk kita bebuat comentar bagi sang pembuat website dibawah i
 <div class="container">
     <h2>About</h2>
     <div class="box">
-        <p>Saya M. AKMAL AL ABDILAH mengucapkan terimakasih.</p>
+        <p>Saya Ilham Maulana Cakra Dwi Noto memperkenalkan diri.</p>
     </div>
 </div>
 <?php require('footer.php'); ?>
@@ -79,6 +79,6 @@ adalah suatu file untuk kita bebuat comentar bagi sang pembuat website dibawah i
 </html>
 ```
 
-dan intinya dalam pertemuan kali ini saya membuat program modulasi dan berikut penjelasan singkatnnya, Modulasi di dalam bahasa pemrograman PHP merujuk pada teknik untuk membagi kode menjadi modul atau bagian-bagian yang lebih kecil dan independen yang dapat dipanggil dan digunakan secara terpisah. Modulasi di PHP biasanya dilakukan dengan menggunakan konsep fungsi, kelas, atau namespace. Dengan memodulasi kode, kita dapat membuat kode lebih mudah dipahami, dipelihara, dan diubah di masa depan, serta memungkinkan beberapa pengembang untuk bekerja secara bersamaan pada proyek yang sama dengan mudah. Saya mohon maaf tidak menjelaskan satu persatu file yang ada di dalam folder lab4_php_modulasi di atas tapi kalian bisa membaca penjelasan file yang lain di link ini https://github.com/akmalabdilah/Lab3Web.git <p>
+singkatnnya, Modulasi di dalam bahasa pemrograman PHP merujuk pada teknik untuk membagi kode menjadi modul atau bagian-bagian yang lebih kecil dan independen yang dapat dipanggil dan digunakan secara terpisah. Modulasi di PHP biasanya dilakukan dengan menggunakan konsep fungsi, kelas, atau namespace. Dengan memodulasi kode, kita dapat membuat kode lebih mudah dipahami, dipelihara, dan diubah di masa depan, serta memungkinkan beberapa pengembang untuk bekerja secara bersamaan pada proyek yang sama dengan mudah. Saya mohon maaf tidak menjelaskan satu persatu file yang ada di dalam folder lab4_php_modulasi di atas tapi kalian bisa membaca penjelasan file yang lain di link ini https://github.com/IlhamMaulanaCakra/lab3_lphp_database.git <p>
 
-Sekian pratikum 4 kali ini dari saya terimakasi telah membaca hingga titik ini<p>
+Sekian Terima Kasih<p>
